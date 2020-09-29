@@ -1,0 +1,516 @@
+@font-face {
+	font-family: "Neue Machina";
+	src: local("NeueMachina-Light.woff2"),
+		url("../fonts/NeueMachina-Light.woff2") format("woff2");
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "Neue Machina";
+	src: local("NeueMachina-Regular.woff2"),
+		url("../fonts/NeueMachina-Regular.woff2") format("woff2");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Neue Machina";
+	src: local("NeueMachina-Medium.woff2"),
+		url("../fonts/NeueMachina-Medium.woff2") format("woff2");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Neue Machina";
+	src: local("NeueMachina-Bold.woff2"),
+		url("../fonts/NeueMachina-Bold.woff2") format("woff2");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Neue Machina";
+	src: local("NeueMachina-Ultrabold.woff2"),
+		url("../fonts/NeueMachina-Ultrabold.woff2") format("woff2");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Neue Machina";
+	src: local("NeueMachina-Black.woff2"),
+		url("../fonts/NeueMachina-Black.woff2") format("woff2");
+	font-weight: 800;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	background-color: #111;
+	overflow-x: hidden;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.cw {
+	font-size: 10.8px;
+}
+
+/*************************** NAVBAR ***************************/
+.nav-outer-wrapper {
+	position: fixed;
+	top: 56px;
+	z-index: 100;
+	height: 40px;
+	width: 100%;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	width: 94%;
+	margin: 0 3%;
+}
+
+.logo {
+	max-width: 250px;
+}
+
+.nav-list-wrapper {
+	width: 40%;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-list li {
+	list-style: none;
+	font-family: "Neue Machina", sans-serif;
+	font-size: 12px;
+}
+
+/*************************** MAIN ***************************/
+.qa-block {
+	margin: 0 20%;
+	font-size: 50px;
+}
+
+.intro-question .text-sub {
+	display: inline-block;
+	font-family: "Neue Machina", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+.intro-question .line {
+	display: inline-block;
+	width: 50px;
+	height: 1px;
+	margin-bottom: 3px;
+	padding-bottom: 0px;
+	background-color: #fff;
+	-webkit-transform-origin: 0% 50%;
+	-ms-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	cursor: pointer;
+}
+
+.landing-intro {
+	font-family: "Rajdhani", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 1em;
+}
+
+.landing-front {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.landing-wrapper {
+	background-image: url("../imgs/new\ 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*************************** VIDEO SECTION ***************************/
+
+.section-wrapper {
+	height: 100vh;
+	overflow: hidden;
+}
+
+.section-inner {
+	height: 100%;
+}
+
+.inner-video-content {
+	position: relative;
+	bottom: 80%;
+	right: 5%;
+}
+
+.right-side-note {
+	margin: 0 5% 0 70%;
+}
+
+.side-title {
+	font-size: 50px;
+	font-family: "Rajdhani", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.video-section-qa {
+	margin: 0 53% 0 20%;
+	font-size: 81px;
+}
+
+.subtitle {
+	font-size: 14px;
+	font-family: "Neue Machina", sans-serif;
+	line-height: 170%;
+	width: 65%;
+}
+
+.v-intro-q {
+	margin: 3%;
+}
+
+.mg-bt {
+	margin-bottom: 3%;
+}
+
+.line-ht-lower {
+	line-height: 87% !important;
+}
+
+#vid-bg {
+	max-height: 100%;
+}
+
+/*************************** POST VIDEO SECTION ***************************/
+
+.why-us-wrapper {
+	height: 100vh;
+}
+
+.center-wrap {
+	position: relative;
+	left: 15%;
+	top: 30%;
+	width: 45%;
+}
+
+.why-us-answer {
+	font-size: 40px;
+	margin: 4% 0;
+}
+
+.why-us-images {
+	position: relative;
+	left: 57%;
+	top: -10%;
+}
+
+.red-line {
+	width: 75%;
+	border: 3px solid red;
+}
+
+.image-1 {
+	max-width: 550px;
+	margin: 0 8%;
+}
+
+.image-2 {
+	max-width: 350px;
+	margin-top: 3%;
+}
+
+.post-video-section-wrapper {
+	background-image: url("../imgs/last\ section\ .jpg");
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.pv-sub-section-outer-wrapper {
+	width: 19.9%;
+}
+
+.pv-sub-section-inner-wrapper {
+	position: relative;
+	height: 100%;
+	bottom: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	border-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(to top, white, rgba(0, 0, 0, 0)) 1 100%;
+	border-style: none solid none none;
+}
+
+.pv-sub-section-inner-wrapper:hover {
+	filter: brightness(5);
+	background-color: rgba(18, 18, 18, 0.3);
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.sub-section-id {
+	font-size: 20px;
+	margin-left: 8%;
+	font-family: "Neue Machina", sans-serif;
+}
+
+.sub-section-title {
+	text-align: center;
+	font-family: "Rajdhani", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 8%;
+}
+
+.sub-section-desc {
+	margin-bottom: 25%;
+	margin-left: 5%;
+	font-size: 16px;
+	font-family: "Neue Machina", sans-serif;
+}
+
+.popup {
+	color: black;
+}
+
+/*************************** FOOTER ***************************/
+.footer-inner-wrapper {
+	padding: 2%;
+	display: flex;
+	justify-content: space-evenly;
+	font-family: "Neue Machina", sans-serif;
+}
+
+.branding-wrapper {
+	width: auto;
+}
+
+.footer-links-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	width: 50%;
+}
+
+.footer-link-title {
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.footer-link-list {
+	list-style-type: none;
+	padding: 0;
+	line-height: 250%;
+}
+
+.footer-link {
+	font-size: 14px;
+}
+
+.newsletter-wrapper {
+	width: 25%;
+}
+
+input {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #a02525;
+	border: 1px solid transparent;
+	height: 30px;
+	width: 25%;
+	font-family: "Neue Machina", sans-serif;
+	font-weight: 500;
+	color: white;
+	border-radius: 0;
+	-webkit-appearance: none;
+}
+
+.footer-submit::-moz-focus-inner {
+	border: 0;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	filter: brightness(1.2);
+}
+
+input[type="submit"]:focus {
+	outline: none;
+}
+
+input[type="submit"]:active {
+	filter: brightness(1);
+}
+
+input[type="text"] {
+	color: white;
+	height: 30px;
+	width: 75%;
+	padding-left: 2%;
+	font-family: "Neue Machina", sans-serif;
+	border: 1px solid lightgray;
+	border-radius: 0;
+	-webkit-appearance: none;
+	background-color: #161616;
+}
+
+input[type="text"]:focus {
+	outline: none;
+}
+
+/*************************** Responsive Media Queries ***************************/
+@media screen and (max-width: 1200px) {
+	.pv-sub-section-wrapper {
+		border-style: none;
+	}
+
+	.nav-list-wrapper {
+		width: 90%;
+	}
+
+	.video-section-qa {
+		font-size: 51px;
+	}
+
+	.why-us-images {
+		display: none;
+	}
+
+	.pv-sub-section-wrapper {
+		height: auto;
+		margin-top: 5%;
+	}
+
+	input[type="text"] {
+		width: 60%;
+	}
+
+	input[type="submit"] {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.inner-video-content {
+		bottom: 90%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.post-video-section-wrapper {
+		height: auto;
+	}
+
+	.pv-sub-section-outer-wrapper {
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.why-us-answer {
+		font-size: 30px;
+	}
+
+	.footer-wrapper {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.video-section-qa {
+		margin: 0 33% 0 20%;
+	}
+
+	.right-side-note {
+		margin: 0 5% 0 60%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.intro-question .line {
+		width: 0px;
+	}
+
+	.video-section-qa {
+		margin: 0 20%;
+	}
+
+	.right-side-note {
+		margin: 0 5% 0 50%;
+	}
+
+	.why-us-answer {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.nav-list-wrapper {
+		display: none;
+	}
+
+	.qa-block {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.video-section-qa {
+		font-size: 25px;
+		margin-bottom: 5%;
+	}
+	.side-title {
+		font-size: 24px;
+	}
+	.right-side-note {
+		margin: 0 0% 0 30%;
+	}
+	.subtitle {
+		width: 100%;
+	}
+	.inner-video-content {
+		bottom: 70%;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.inner-video-content {
+		bottom: 90%;
+	}
+}

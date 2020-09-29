@@ -1,0 +1,121 @@
+/*************************** ABOUT PAGE ***************************/
+
+.about-outer-wrapper {
+	overflow-x: hidden;
+}
+
+.about-inner-wrapper {
+	font-family: "Rajdhani", sans-serif;
+}
+
+/*************************** SECTION 1 ***************************/
+
+.about-us-banner {
+	height: 75vh;
+	background-image: url("../imgs/friends-fist-bump.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.au-banner-inner h2 {
+	margin-top: 0;
+	text-align: center;
+	font-size: 70px;
+	text-transform: uppercase;
+	color: #e44242;
+}
+
+.au-banner-inner p {
+	font-size: 40px;
+	text-align: center;
+	margin: 0 10%;
+}
+
+/*************************** SECTION 2 ***************************/
+
+.pink-banner {
+	background-color: #e44242;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pink-banner-inner {
+	margin: 0 10%;
+}
+
+.pink-banner-inner p {
+	margin: 0;
+	font-size: 28px;
+	padding: 10%;
+}
+
+/*************************** SECTION 3 ***************************/
+
+.info-card-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.info-card {
+	width: 30%;
+	margin: 3%;
+	text-align: center;
+	font-weight: 700;
+}
+
+.info-card .number {
+	font-size: 70px;
+	margin: 5%;
+}
+
+.info-card .label {
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 5%;
+}
+
+/*************************** SECTION 4 ***************************/
+
+.bt-card-container {
+	height: 50vh;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.button-card {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.bt-bg-1 {
+	background-image: url("../imgs/guy-with-binoculars.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bt-bg-2 {
+	background-image: url("../imgs/hands-in-group.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button-card:hover {
+	cursor: pointer;
+	filter: brightness(0.6);
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
