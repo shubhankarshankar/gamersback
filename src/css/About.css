@@ -58,11 +58,12 @@
 
 .info-card-container {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 
 .info-card {
-	width: 30%;
+	width: 27%;
 	margin: 3%;
 	text-align: center;
 	font-weight: 700;
@@ -84,6 +85,7 @@
 .bt-card-container {
 	height: 50vh;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 
@@ -118,4 +120,30 @@
 	-moz-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
+}
+
+/*************************** Responsive Media Queries ***************************/
+
+@media screen and (max-width: 900px) {
+	.bt-card-container {
+		height: 100vh;
+	}
+
+	.button-card {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.au-banner-inner p {
+		font-size: 30px;
+	}
+
+	.info-card {
+		width: 94%;
+	}
+
+	.pink-banner-inner p {
+		font-size: 20px;
+	}
 }
