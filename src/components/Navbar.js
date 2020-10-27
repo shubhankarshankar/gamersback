@@ -8,24 +8,26 @@ class Navbar extends Component {
 		return (
 			<nav className="nav-wrapper">
 				<div className="brand-logo">
-					<img src={navLogo} alt="Brand Logo" className="logo" />
+					<Link to="/">
+						<img src={navLogo} alt="Brand Logo" className="logo" />
+					</Link>
 				</div>
 				<div className="nav-list-wrapper">
 					<ul className="nav-list">
 						<li>
-							<Link to="/">Home</Link>
+							<Link to="/about">About</Link>
 						</li>
 						<li>
-							<Link to="/about">About Us</Link>
+							<Link to="/help">Help</Link>
 						</li>
 						<li>
-							<Link to="/benefits">Benefits</Link>
+							<Link to="/jobs">Jobs</Link>
 						</li>
 						<li>
-							<Link to="/projects">Upcoming GB Projects</Link>
+							<Link to="/privacy">Privacy</Link>
 						</li>
 						<li>
-							<Link to="contact">Career Contact</Link>
+							<Link to="/terms">Terms</Link>
 						</li>
 					</ul>
 				</div>

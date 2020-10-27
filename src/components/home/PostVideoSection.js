@@ -47,7 +47,7 @@ class PostVideoSection extends Component {
 	render() {
 		return (
 			<div>
-				<div className="why-us-wrapper">
+				{/* <div className="why-us-wrapper">
 					<div className="center-wrap">
 						<div data-aos="fade-up">
 							<div className="intro-question">
@@ -80,7 +80,7 @@ class PostVideoSection extends Component {
 							/>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="post-video-section-wrapper">
 					{this.sections.map(item => {
 						return (

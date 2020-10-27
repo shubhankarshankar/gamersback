@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import PostVideoSection from "../home/PostVideoSection";
+
 export default class About extends Component {
 	infoCards = [
 		{
@@ -40,7 +42,8 @@ export default class About extends Component {
 							</p>
 						</div>
 					</section>
-					<section className="count-banner">
+					<PostVideoSection />
+					{/* <section className="count-banner">
 						<div className="count-banner-inner">
 							<div className="info-card-container">
 								{this.infoCards.map(info => {
@@ -63,7 +66,7 @@ export default class About extends Component {
 								})}
 							</div>
 						</div>
-					</section>
+					</section> */}
 					<section className="buttons-section">
 						<div className="bt-card-container">
 							<div

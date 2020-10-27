@@ -6,7 +6,9 @@ class SubSectionExpand extends Component {
 	}
 
 	render() {
-		return <div>{this.props.match.params.type}</div>;
+		return (
+			<div style={{ marginTop: "56px" }}>{this.props.match.params.type}</div>
+		);
 	}
 }
 
